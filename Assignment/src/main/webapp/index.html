@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  
+}
+
+.header {
+  overflow: hidden;
+  background-color: royalblue;
+  padding: 20px 10px;
+}
+
+.header a,.button {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  
+}
+
+.header a:hover {
+  background-color: coral;
+  color: black;
+}
+
+.header a.active {
+  background-color: orange;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+.div1{
+text-align:center;
+padding: 30px;
+font-size:25px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <a href="index.html" class="logo">DEM</a>
+  <div class="header-right">
+    <a href="index.html">Home</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a class="active" href="EventDetail.jsp">Book Now</a>
+  </div>
+</div>
+
+<div class="div1" style="padding-left:20px;background-color:lightyellow;">
+  <h1>Event Management</h1>
+  <p>Welcome to the world of tasty magic...</p>
+</div>
+<hr>
+<div class="div1" id="about" style="padding-left:20px;background-color:lightyellow;">
+<h3>Savour the taste of true India</h3>
+
+
+
+<p>Event Management Services have had a long run in the business of providing the greatest savourities of India. Let it be Northern or Southern style food, our services can provide the best of the Indian facilities.
+Our best in-class services include the occasions like Party, Birthday, Wedding, Anniversaries and the list goes on...</p>
+<p><ul><li>We comply with the COVID-19 guidelines</li><br>
+<li>We have the top professional cooks who provide you with the wonderful taste</li><br>
+<li>We provide bookings online as well as offline</li><br>
+<li>Online bookings provide the online invoices</li><br>
+<li>We consider hygienic environment and a hygienic workspace, a topic of top priority</li><br>
+<li>We provide our services for all kinds of events</li><br>
+</ul> 
+<p>We provide the flavours of different spices in India from every corner of the country. Looking for a perfect blend of flavors and colors? Then book our services now!!!</p>
+<p>Started in 2003, we continue with the heritage of being one of the most professional yet friendly service provider. 
+</div>
+<hr>
+<div id="contact" class="div1" style="padding-left:20px;background-color:lightyellow;">
+<h4>Connect to us, we would like to hear you</h4>
+<p>Feel free to ask any queries, provide feedback or suggestions by<br>
+Writing us at: divya@events.com or<br>
+Calling us at: 9564683465<br><br>
+Our Bengaluru office:
+RR Nagar, Bengaluru
+</p>
+</div>
+<footer style="padding-left:20px;padding:20px;text-align:center;background-color:grey;">
+DEM service &copy; 2022</footer>
+ 
+</body>
+</html>
